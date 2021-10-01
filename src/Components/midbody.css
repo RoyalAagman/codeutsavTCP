@@ -1,0 +1,39 @@
+.content{
+    width: 100px;
+    height: 400px;
+}
+*{
+    box-sizing: border-box;
+}
+.textgreen{
+    position: absolute;
+    font-family: poppins-semibold;
+    font-size: 70px;
+    color: green;
+}
+.subtext{
+    position: absolute;
+    font-family: poppins-semibold;
+    font-size: 20px;
+    color:grey;
+    letter-spacing: 1px;
+}
+.centretxt{
+    position: absolute;
+    font-family: Poppins-SemiBold;
+    font-size: 350px;
+    color: green;
+}
+#yrsofexp{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.circle{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-image: url('https://lithohtml.themezaa.com/images/home-startup-about-img.jpg');
+    border-radius: 50%;
+    background-size: 195px 195px;
+}

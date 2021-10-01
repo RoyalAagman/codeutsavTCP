@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from "./First";
+import Carouselk from './Components/carousel.js';
+import Middlebody from './Components/midbody.js';
+import Middtext from './Components/midtxt.js'
+import Gridcards from './Components/midcard.js'
+import Blockitem from './Components/blockit.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Editting <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello
-        </a>
-      </header>
+    <div>
+      <div className="stylo1">
+        <Navigation />
+        <Carouselk />
+      </div>
+      <div className="stylo2">
+        <Middlebody />
+      </div>
+      <div className="stylo3">
+        <Middtext/>
+      </div>
+      <div className="stylo4"> 
+          <Gridcards />
+      </div>
+      <div className="stylo5">
+        <Blockitem />
+      </div>
     </div>
-  );
+      
+  )
 }
 
 export default App;

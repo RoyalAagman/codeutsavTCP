@@ -1,0 +1,15 @@
+.border{
+    height: 150px;
+}
+.strtxt{
+    font-family: Poppins-semibold;
+    font-size: 32px;
+}
+.mildtxt{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+}
+.smalltxt{
+    color:grey;
+}

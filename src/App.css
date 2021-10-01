@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.stylo1{
+  width: 100%;
+  height: 600px;
+}
+.stylo2{
+  position: relative;
+  top: 100px;
+}
+.stylo3{
+  position: absolute;
+  top:1700px;
+  height: 200px;
+  width: 100%;
+}
+.stylo4{
+  position: absolute;
+  top:1900px;
+  /* height: 200px; */
+  width: 100%;
+  height: 200px;
+}
+.stylo5{
+  position : absolute;
+  top: 2400px;
+  width: 100%;
+}
